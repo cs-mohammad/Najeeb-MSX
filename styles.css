@@ -44,7 +44,7 @@ body {
 }
 
 .brand__logo {
-  width: 68px;
+  width: 120px;
   height: 63px;
   object-fit: contain;
 }
@@ -189,7 +189,7 @@ body {
   width: 100%;
   max-width: 1200px;
   height: 500px;
-}
+   }
 
 /* ===== FLAG IMAGE (CENTER) ===== */
 .flag-image-wrapper {
@@ -485,10 +485,6 @@ body {
   }
 }
 
-
-
-
-
 @media (max-width: 430px) {
     .flag-container {
     height: auto;
@@ -666,11 +662,11 @@ body {
 
 .vision-header {
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-top: 0.25rem;
 }
 
 .vision-logo {
-  width: 2.1875rem;
+  width: 3rem;
   height: 2rem;
   margin-bottom: 1.5rem;
   margin-top: 6rem;
@@ -849,8 +845,8 @@ body {
   }
 
   .vision-logo {
-    width: 1.875rem;
-    height: 1.75rem;
+    width: 3rem;
+    height: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -1026,8 +1022,8 @@ body {
 }
 
 .we-inspire-logo {
-  width: clamp(25px, 5vw, 35px);
-  height: auto;
+  width: 3rem;
+  height: 2rem;
   margin-bottom: 10px;
 }
 
@@ -1053,7 +1049,7 @@ body {
   margin-bottom: 30px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .we-inspire .title {
     font-size: clamp(0.2rem, 6vw, 3rem);
     letter-spacing: 0.2em;
@@ -1064,8 +1060,10 @@ body {
   }
 
   .we-inspire-logo {
-    width: 15px;
+    height: 1.5rem;
+    width: 2.3rem;
   }
+
 }
 
 .we-inspire-cards {
@@ -2408,19 +2406,19 @@ body {
 .footer-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0px;
   margin-bottom: 8px;
 }
 
 .footer-logo {
-  width: 59.82px;
-  height: 56.22px;
+  width: 6.5rem;
+  height: 4rem;
 }
 
 .footer-brand-name {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 44px;
   letter-spacing: -0.017em;
   color: #FEFEFE;
